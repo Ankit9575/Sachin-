@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Happy Birthday Rasmalai 💖</h1>
+
+    <p class="typing"></p>
+
+    <div class="countdown">
+      <div class="box">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+
+      <div class="box">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+
+      <div class="box">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+
+      <div class="box">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+
+    <button onclick="showMessage()">Open Surprise 🎁</button>
+
+    <div id="message" class="hidden">
+      Rasmalai ❤️<br>
+      You are the sweetest and most beautiful part of my life ✨<br>
+      May your smile always shine brighter than the stars 💖<br>
+      Happy Birthday to the most special person in my world 🎂<br><br>
+      — Wishes From Sachin ❤️
+    </div>
+  </div>
+
+  <canvas id="hearts"></canvas>
+
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
